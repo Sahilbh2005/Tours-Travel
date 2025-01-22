@@ -1,0 +1,589 @@
+.Header_root {
+    width: 100%;
+    background-color: #003b95;
+    color: white;
+}
+
+.Header_bar {
+    padding: 8px;
+    display: flex;
+    justify-content: space-between; /* Spread out the items */
+    align-items: center; /* Vertically center the items */
+    padding: 10px 20px; /* Adjust spacing */
+}
+
+.Header_main {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+
+    padding: 8px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.logo:hover {
+    text-shadow: 2px 2px 4px #006ce4; /* Subtle hover effect */
+}
+
+.Header_icons {
+    display: flex;
+    align-items: center; /* Vertically center the icons */
+    justify-content: flex-end; /* Align icons to the right */
+    gap: 10px; /* Space between icons */
+}
+
+.Header_icons button {
+    all: unset; /* Remove default button styles */
+    border-radius: 50%; /* Circular shape */
+    cursor: pointer; /* Ensure pointer cursor */
+}
+
+.Header_icons i {
+    font-size: 2em; /* Adjust icon size */
+    margin: 5px; /* Space around icons */
+}
+
+.services {
+    display: flex;
+    justify-content: space-evenly; /* Evenly distribute items */
+    align-items: center; /* Center items vertically */
+    transition: border 0.3s ease; /* Smooth border transition */
+}
+
+.services a {
+    padding: 5px 7px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 0;
+    color: #fff;
+    transition: background-color 0.3s ease, border-radius 0.3s ease; /* Smooth hover effects */
+}
+
+.services a:hover {
+    border-radius: 20px; /* Rounded corners on hover */
+    background-color: #006ce4/* Subtle hover background */
+}
+
+.services i {
+    margin: 5px; /* Space around icons inside services */
+}
+
+.Header_root h1 {
+    margin: 0 50px 0 50px;
+    font-size: 4em;
+    font-weight: 700;
+    margin-top: 20px; /* Minimal space below the h1 */
+}
+
+.Header_root p {
+    margin: 0 50.200px 50.200px;
+    font-size: 2em;
+    margin-top: 0; /* Remove the default space above the paragraph */
+    padding-bottom: 70px;
+}
+
+.input-container {
+    border: 2px solid orange;
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+    max-width: 300px; /* Adjust width as needed */
+}
+
+.input-container input {
+    
+    width: 100%;
+    padding: 10px 10px 10px 35px; /* Leave space for the icon on the left */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.input-container i {
+    position: absolute;
+    top: 50%; /* Center the icon vertically */
+    left: 10px; /* Position the icon inside the left side of the input */
+    transform: translateY(-50%);
+    font-size: 1.2em; /* Adjust icon size */
+    color: #636363; /* Icon color */
+    pointer-events: none; /* Ensure the icon doesn’t interfere with input interaction */
+}
+
+.input-container input:focus {
+    border-color: #007BFF;
+}
+
+.dates{
+    border: 2px solid orange;
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+}
+
+.dates input{
+    border: 2px solid orange;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 10px 10px 35px; /* Leave space for the icon on the left */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.rooms{
+    border: 2px solid orange;
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+}
+
+.rooms button{
+    border: 3px solid orange;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 10px 10px 35px; /* Leave space for the icon on the left */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.rooms i{
+    position: absolute;
+    top: 50%; /* Center the icon vertically */
+    left: 10px; /* Position the icon inside the left side of the input */
+    transform: translateY(-50%);
+    font-size: 1.2em; /* Adjust icon size */
+    color: #636363; /* Icon color */
+    pointer-events: none;
+}
+
+.search{
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+}
+
+.search button{
+    
+    width: 50%;
+    padding: 10px 10px 10px 35px; /* Leave space for the icon on the left */
+    border: 3px solid orange;
+    border-radius: 5px;
+    background-color: #003b95;
+    color: #ffff;
+    font-size: 1em;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.hero_sect {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto; /* Center the section horizontally */
+    margin-top: 20px; /* Space between the header and hero section */
+    /* Optional padding for the hero section */
+    max-width: 90%; /* Optional: Limit the width of the section */
+    flex-wrap: wrap; /* Wrap items if the screen is too small */
+}
+
+.offers h1{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.offers p{
+    margin-left: 50px;
+    margin-top: 2px;
+    font-weight: thin;
+}
+
+.discount {
+    width: 80%;
+    height: auto;
+    margin-left: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative; /* To ensure proper positioning if needed */
+    overflow: hidden; /* Optional: prevents content overflow */
+}
+
+.discount h2 {
+    margin-bottom: 0;
+}
+
+.discount p {
+    margin-top: 0;
+}
+
+.discount button{
+    height: 30px;
+    border-radius: 5px;
+    background-color: #003b95;
+    color: #fff;
+    font-size: 1em;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.discount img {
+    width: 100%;  /* Allow the image to scale to the full width of its container */
+    height: 90%; /* Maintain the aspect ratio of the image */
+    position: absolute; /* Allows positioning the image */
+    top: 5px; /* Aligns the image to the top of the div */
+    right: 5px; /* Aligns the image to the right of the div */
+    max-width: 150px; /* Optional: restrict image width if needed */
+    border-radius: 5px;
+}
+
+h1{
+    margin-left: 50px;
+}
+
+.property{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.3 ease;
+}
+
+.property .hotels, 
+.property .villas, 
+.property .resorts, 
+.property .apartments {
+    transition: transform 0.3s ease-in-out; /* Smooth transition for zoom effect */
+}
+
+.property .hotels:hover, 
+.property .villas:hover, 
+.property .resorts:hover, 
+.property .apartments:hover {
+    transform: scale(1.2); /* Zoom in the element by 20% on hover */
+}
+
+
+.property img, h3{
+    border-radius: 15px;
+    object-fit: cover !important;
+    transition: all 0.3 ease;
+}
+
+.property img:hover{
+    box-shadow: 0 0 10px 5px #636363;
+}
+
+.city1 {
+    display: flex;
+    justify-content: space-evenly;  /* Adds space between images */
+    align-items: center;  /* Align items vertically in the center */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.city1 .delhi, .city1 .bangalore {
+    position: relative;
+    width: 48%;  /* Ensures the two images take equal space */
+}
+
+.city1 img {
+    width: 100%;  /* Makes sure the images take full width of their container */
+    height: 350px;  /* Fixed height for the images */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.city1 img:hover{
+    box-shadow: 0 0 10px 5px #636363;
+}
+
+.overlay {
+    position: absolute;
+    left: 10px; /* Position text near the left */
+    color: white;  /* White text */
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 5px rgba(15, 15, 16, 1);
+}
+
+.city2 {
+    display: flex;
+    justify-content: center;  /* Adds space between images */
+    align-items: center;  /* Align items vertically in the center */
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+.city2 .mumbai, .city2 .chennai, .city2 .hyderabad {
+    position: relative;
+    width: 95%;  /* Ensures the two images take equal space */
+}
+
+.city2 img {
+    width: 100%;  /* Makes sure the images take full width of their container */
+    height: 300px;  /* Fixed height for the images */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.city2 img:hover{
+    box-shadow: 0 0 10px 5px #636363;
+}
+
+.planner p{
+    font-size: 1em;
+    margin-left: 50px;
+}
+
+.destinations{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start; /* Evenly distribute items */
+    align-items: center; /* Center items vertically */
+    transition: border 0.3s ease; /* Smooth border transition */
+    gap: 5em;
+    margin-left: 50px;
+}
+
+.cities, .beach, .outdoor, .romance{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    padding: 0 1em 0 1em;
+    font-size: 1.1em;
+    gap: 1em;
+}
+
+.beach:hover, 
+.outdoor:hover, 
+.romance:hover{
+    border-radius: 9999px;
+    background-color: #b2b0b071;
+}
+
+.cities i, .beach i, .outdoor i, .romance i{
+    margin-top: 1em;
+}
+
+.cities{
+    border: 1px solid #007BFF;
+    border-radius: 9999px;
+    background-color: #b2b0b071;
+    color: #007BFF;
+}
+
+.cities2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly; /* Evenly distribute items */
+    align-items: center; /* Center items vertically */
+}
+
+.cities2 img{
+    height: 125px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.cities2 h3{
+    margin-bottom: 0;
+}
+
+.cities2 p{
+    margin-top: 0em;
+    color: #636363;
+}
+
+.navi_mum, 
+.surat, 
+.ahmedabad, 
+.aurangabad, 
+.hampi, 
+.dwarka {
+    transition: transform 0.3s ease-in-out; /* Smooth transition for scale effects */
+}
+
+.navi_mum img, 
+.surat img, 
+.ahmedabad img, 
+.aurangabad img, 
+.hampi img, 
+.dwarka img {
+    transition: all 0.3s ease-in-out; /* Smooth transition for image properties */
+}
+
+.navi_mum:hover, 
+.surat:hover, 
+.ahmedabad:hover, 
+.aurangabad:hover, 
+.hampi:hover, 
+.dwarka:hover {
+    transform: scale(1.2); /* Smooth zoom effect on hover */
+}
+
+.navi_mum img:hover, 
+.surat img:hover, 
+.ahmedabad img:hover, 
+.aurangabad img:hover, 
+.hampi img:hover, 
+.dwarka img:hover {
+    box-shadow: 0 0 15px 10px #636363; /* Smooth shadow transition */
+}
+
+.explore{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly; /* Evenly distribute items */
+    align-items: center; /* Center items vertically */
+}
+
+.explore img{
+    height: 125px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.mumbai2,
+.jaipur,
+.agra,
+.rishikesh,
+.goa,
+.dehradun{
+    transition: transform 0.3s ease-in-out;;
+}
+
+.mumbai2:hover,
+.jaipur:hover,
+.agra:hover,
+.rishikesh:hover,
+.goa:hover,
+.dehradun:hover{
+    transform: scale(1.2);
+}
+
+.mumbai2 img:hover,
+.jaipur img:hover,
+.agra img:hover,
+.rishikesh img:hover,
+.goa img:hover,
+.dehradun img:hover{
+    box-shadow: 0 0 15px 10px #636363;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start; /* Evenly distribute items */
+    align-items: center; /* Center items vertically */
+    transition: border 0.3s ease; /* Smooth border transition */
+    font-size: 1.1em;
+    gap: 5em;
+    margin-left: 50px;
+}
+
+.main h4{
+    padding: 0 0.5em 0 0.5em;
+    font-size: 1em;
+
+}
+
+.domestic{
+    border: 1px solid #007BFF;
+    border-radius: 9999px;
+    background-color: #b2b0b071;
+    color: #007BFF;
+}
+
+.domestic, .international, .region, .countries, .places{
+    height: 50px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.domestic:hover,
+.international:hover,
+.region:hover,
+.countries:hover,
+.places:hover{
+    border-radius: 9999px;
+    background-color: #b2b0b071;
+}
+
+.footer_panel1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer_panel1 ul{
+    list-style-type: none;
+}
+
+.footer_panel1 li{
+    margin-bottom: 1em;
+}
+
+.footer_panel1 li:hover{
+    text-decoration: underline;
+}
+
+.footer_panel2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgba(26, 26, 26, .16);
+}
+
+.footer_panel2 ul{
+    list-style-type: none;
+}
+
+.footer_panel2 p{
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+.footer_panel2 li{
+    margin-bottom: 1em;
+}
+
+.footer_panel3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_panel3 p{
+    font-size: 0.95em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.root{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+}
+
+.root img{
+    height: 5%;
+    width: 7%;
+}
